@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WOW SHOES - Wisdom of Wearing</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+    nav {
+      background: #333;
+      text-align: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .product-card {
+      background: #f4f4f4;
+      padding: 1rem;
+      border-radius: 8px;
+      width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    /* Hero section */
+    .hero {
+      background: linear-gradient(to right, #000, #444);
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WOW SHOES</h1>
+    <p>Wisdom of Wearing</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#collection">Collection</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Step Into Wisdom</h2>
+    <p>Custom. Collectible. Authentic. Every pair tells a story.</p>
+  </section>
+
+  <section id="about">
+    <h2>About WOW SHOES</h2>
+    <p>WOW SHOES is more than footwear — it’s a philosophy. Wisdom of Wearing means comfort, style, and confidence in every step.</p>
+  </section>
+
+  <section id="collection">
+    <h2>Our Collection</h2>
+    <div class="products">
+      <div class="product-card">
+        <!-- Replace with your uploaded image filename -->
+        <img src="wowshoe.jpeg" alt="WOW Shoes Limited Edition">
+        <h3>Limited Edition High-Top</h3>
+        <p>Custom. Collectible. Authentic. Designed for those who walk with wisdom.</p>
+      </div>
+      <div class="product-card">
+        <img src="shoe2.jpg" alt="Sport Runner">
+        <h3>Sport Runner</h3>
+        <p>Lightweight shoes built for performance.</p>
+      </div>
+      <div class="product-card">
+        <img src="shoe3.jpg" alt="Elegant Loafer">
+        <h3>Elegant Loafer</h3>
+        <p>Smart casual footwear for every occasion.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@wowshoes.com</p>
+    <p>Instagram: @wowshoes</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 WOW SHOES - Wisdom of Wearing</p>
+  </footer>
+</body>
+</html>
